@@ -1,6 +1,6 @@
+name: zmk-config-vance
 build:
   cmake: .
-  kconfig: Kconfig
-  settings:
-    board_root: config
+  kconfig: config/boards/shields/vance/Kconfig.shield
+
 
