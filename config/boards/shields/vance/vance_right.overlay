@@ -11,6 +11,11 @@
     col-offset = <6>;
 };
 
+zmk_split {
+    compatible = "zmk,split";
+    split_role = "right";
+};
+
 &zmk_split {
     role = "peripheral";
 };
