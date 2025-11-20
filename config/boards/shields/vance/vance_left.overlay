@@ -1,5 +1,12 @@
 #include "vance.dtsi"
 
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+        zmk,matrix_transform = &default_transform;
+    };
+};
+
 &kscan0 {
     col-gpios
         = <&pro_micro 3 GPIO_ACTIVE_HIGH>
