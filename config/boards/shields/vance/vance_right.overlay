@@ -5,21 +5,16 @@
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
     };
+    zmk_split: split {
+        compatible = "zmk,split";
+        split_role = "right";
+        role = "peripheral";
+    };
 };
 
 &default_transform { 
     col-offset = <6>;
 };
-
-zmk_split {
-    compatible = "zmk,split";
-    split_role = "right";
-};
-
-&zmk_split {
-    role = "peripheral";
-};
-
 
 &kscan0 {
     col-gpios
