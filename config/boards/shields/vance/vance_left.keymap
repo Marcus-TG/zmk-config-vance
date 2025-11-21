@@ -22,7 +22,7 @@
                 &trans &trans &trans &trans &trans &trans
                 &trans &kp INS &kp UP &kp END &kp PGUP &trans
                 &trans &kp LEFT &kp DOWN &kp RIGHT &kp PGDN &trans
-                &trans &kp PSCR &trans &kp DEL &trans &trans
+                &trans &kp PSCRN &trans &kp DEL &trans &trans
                 &trans &trans &trans &trans &trans &trans
                 &trans &trans &trans &trans &trans &trans
             >;
